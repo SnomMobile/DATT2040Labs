@@ -32,6 +32,11 @@ void draw()
   }
   if(keyPressed)
   {
+    if(key == '0')
+    {
+      fill(255);
+      stroke(255);
+    }
     if(key == '1')
     {
       fill(255,0,0);
